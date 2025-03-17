@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Traffic Light</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="traffic_light_container">
+      <div id="red_light" class="light red off" onclick="switchLight('red')"></div>
+      <div id="yellow_light" class="light yellow off" onclick="switchLight('yellow')"></div>
+      <div id="green_light" class="light green off" onclick="switchLight('green')"></div>
+    </div>
+    <div id = "pole"></div>
+    <img id="car" src="car.png" alt="Car">
+    <div id = "road"></div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

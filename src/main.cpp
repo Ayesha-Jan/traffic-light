@@ -84,13 +84,33 @@ void setup() {
     }
 
     server.on("/", HTTP_GET, []() {
-        File file = LittleFS.open("/clickRobot.html", "r");
+        File file = LittleFS.open("/index.html", "r");
         if (!file) {
             server.send(404, "text/plain", "File not found");
             return;
         }
         server.streamFile(file, "text/html");
         file.close();
+    });
+
+    server.on("/style.css", HTTP_GET, []() {
+      File file = LittleFS.open("/style.css", "r");
+      if (!file) {
+          server.send(404, "text/plain", "File not found");
+          return;
+      }
+      server.streamFile(file, "text/css");
+      file.close();
+    });
+  
+    server.on("/script.js", HTTP_GET, []() {
+      File file = LittleFS.open("/script.js", "r");
+      if (!file) {
+          server.send(404, "text/plain", "File not found");
+          return;
+      }
+      server.streamFile(file, "application/javascript");
+      file.close();
     });
 
     server.on("/car.png", HTTP_GET, []() {
