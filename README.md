@@ -86,10 +86,6 @@ Before getting started, make sure you have the following installed:
 
 ---
 
-## License:
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 For questions or feedback, please contact: [Ayesha.Jan@stud.srh-campus-berlin.de]
