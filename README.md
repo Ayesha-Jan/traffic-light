@@ -7,7 +7,7 @@ This project creates a **web-based traffic light simulation** with a moving car 
 - Interactive front-end with animated day/night background
 - Moving car animation that reacts to the light changes
 - Clickable red/yellow/green lights
-- LED control via GPIO (using `/led/on` and `/led/off` routes)
+- LED control via GPIO
 - Entire app (HTML/CSS/JS/image) served from onboard LittleFS
 - PlatformIO-based setup for modern, modular development
 
@@ -46,7 +46,7 @@ Before getting started, make sure you have the following installed:
    First, clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/Traffic-Light.git
+   https://github.com/Ayesha-Jan/Traffic-Light.git
    cd Traffic-Light
 
 2. **Install Dependencies**:
