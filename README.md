@@ -90,9 +90,8 @@ Before getting started, make sure you have the following installed:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
+## Author
 
-Developed by: Ayesha A. Jan
-Email: Ayesha.Jan@stud.srh-campus-berlin.de
+Developed by: Ayesha A. Jan  
+Email: Ayesha.Jan@stud.srh-campus-berlin.de  
 🎓 BST Mechatronics Project – 2025
-
