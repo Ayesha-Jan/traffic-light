@@ -92,5 +92,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or feedback, please contact: [Ayesha.Jan@stud.srh-campus-berlin.de]
+Developed by: Ayesha A. Jan
+Email: Ayesha.Jan@stud.srh-campus-berlin.de
+🎓 BST Mechatronics Project – 2025
 
